@@ -30,7 +30,7 @@ az login
 
 Clone the official GOAD repository from Orange Cyberdefense.
 ```bash
-git clone [https://github.com/Orange-Cyberdefense/GOAD.git](https://github.com/Orange-Cyberdefense/GOAD.git)
+git clone https://github.com/Orange-Cyberdefense/GOAD.git
 ```
 ![clone repo](ss/3.png)
 
