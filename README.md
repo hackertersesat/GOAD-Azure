@@ -15,7 +15,7 @@ First, ensure the Azure CLI is installed and authenticated.
 
 ### Install Azure CLI
 ```bash
-brew install azure-cli
+brew install azure-cli```
 
 ### Authenticate
 ```bash
