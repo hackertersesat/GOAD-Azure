@@ -39,4 +39,33 @@ cd goad
 ./goad.sh -t check -l GOAD -p azure
 ```
 
+## 3. Configuration
+### Check region availability
+Verify if your desired location (e.g., indonesiacentral) is available for your subscription.
+```bash
+az account list-locations --query "[?name=='indonesiacentral']"
+```
+
+### Configure goad.ini
+Edit the main configuration file to set your project details, IP ranges, or locations.
+```bash
+nano /Users/<your_user>/.goad/goad.ini
+```
+
+### Configure Terraform (Jumpbox)
+If specific Terraform modifications are needed for the jumpbox, edit the provider file.
+```bash
+nano ./template/provider/azure/jumpbox.tf
+```
+
+## 4. Deployment
+### Install GOAD
+Run the installation script.
+
+Target: install
+
+Lab: GOAD-Mini (Change to GOAD for the full lab)
+
+Provider: azure
+
 
