@@ -16,3 +16,24 @@ First, ensure the Azure CLI is installed and authenticated.
 ### Install Azure CLI
 ```bash
 brew install azure-cli
+
+### Authenticate
+```bash
+az login
+
+## 2. Setup & Requirements
+### Clone the repository
+
+Clone the official GOAD repository from Orange Cyberdefense.
+```bash
+git clone [https://github.com/Orange-Cyberdefense/GOAD.git](https://github.com/Orange-Cyberdefense/GOAD.git)
+
+### Check Requirements
+
+Navigate to the directory and run the check script to ensure all dependencies are met for Azure
+```bash
+cd goad
+./goad.sh -t check -l GOAD -p azure
+
+
+
